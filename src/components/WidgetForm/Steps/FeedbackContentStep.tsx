@@ -12,8 +12,8 @@ export function FeedbackContentStep({ feedbackType }: FeedbackContentStepProps) 
     <>
       <header>
         <span className="text-xl leading-6">
-          {/* <img src={feedbackTypeInfo.image.source} alt={feedbackTypeInfo.image.alt} className="w-6 h-6" /> */}
-          {/* {feedbackTypeInfo.title}          */}
+          <img src={feedbackTypeInfo.image.source} alt={feedbackTypeInfo.image.alt} className="w-6 h-6" />
+          {feedbackTypeInfo.title}         
         </span>
         <CloseButton/>
       </header>
